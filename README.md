@@ -1,54 +1,207 @@
-<header>
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Apprendre HTML</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Apprendre HTML</h1>
+    <p>Un guide interactif pour comprendre les bases du HTML étape par étape.</p>
+  </header>
 
-<!--
-  <<< Author notes: Course header >>>
-  Include a 1280×640 image, course title in sentence case, and a concise description in emphasis.
-  In your repository settings: enable template repository, add your 1280×640 social image, auto delete head branches.
-  Add your open source license, GitHub uses MIT license.
--->
+  <main>
+    <!-- Introduction : C'est quoi HTML -->
+    <section id="introduction">
+      <h2>C'est quoi HTML ?</h2>
+      <img src="./Assets/images/jpg/ju.jpg" alt="">
+      <strong>
+        HTML (HyperText Markup Language) est le langage utilisé pour structurer le contenu des pages web. Il sert à définir la structure des éléments tels que les titres, paragraphes, images, vidéos, liens, et bien plus.
+      </strong>
+      <p>
+        Chaque page web que vous voyez sur Internet utilise HTML pour organiser son contenu.
+      </p>
+    </section>
 
-# GitHub Pages
+    <!-- Structure de base -->
+    <section id="structure-base">
+        <img src="./Assets/images/jpg/gt jpg" alt="">
+      <h2>La Structure de Base d'une Page HTML</h2>
+      <p>Voici à quoi ressemble la structure minimale d'une page HTML :</p>
+      <pre>
+<code>
+&lt;!DOCTYPE html&gt;
+&lt;html lang="fr"&gt;
+&lt;head&gt;
+  &lt;meta charset="UTF-8"&gt;
+  &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+  &lt;title&gt;Ajouter un titre&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+ 
+&lt;/body&gt;
+&lt;/html&gt;
+</code>
+      </pre>
+      <p>Chaque page HTML commence par <code>&lt;!DOCTYPE html&gt;</code>, qui indique au navigateur que nous utilisons HTML5.</p>
+    </section>
 
-_Create a site or blog from your GitHub repositories with GitHub Pages._
+    <!-- Les balises HTML -->
+    <section id="balises-html">
+      <h2>Qu'est-ce qu'une Balise HTML ?</h2>
+      <p>
+        Les balises sont les éléments fondamentaux d'une page HTML. Elles sont toujours entourées de chevrons : <code>&lt;&gt;</code>.
+      </p>
+      <ul>
+        <li><code>&lt;h1&gt;</code> : Titre principal.</li>
+        <li><code>&lt;p&gt;</code> : Paragraphe.</li>
+        <li><code>&lt;img&gt;</code> : Image.</li>
+        <li><code>&lt;a&gt;</code> : Lien.</li>
+      </ul>
+      <p>Les balises fonctionnent souvent par paires : une balise d'ouverture (<code>&lt;h1&gt;</code>) et une balise de fermeture (<code>&lt;/h1&gt;</code>).</p>
+    </section>
 
-</header>
+    <!-- Les Titres -->
+    <section id="titres">
+      <h2>Les Titres</h2>
+      <p>HTML propose 6 niveaux de titres, du plus important (<code>&lt;h1&gt;</code>) au moins important (<code>&lt;h6&gt;</code>) :</p>
+      <h1>Titre H1 (le plus grand)</h1>
+      <h2>Titre H2</h2>
+      <h3>Titre H3</h3>
+      <h4>Titre H4</h4>
+      <h5>Titre H5</h5>
+      <h6>Titre H6 (le plus petit)</h6>
+    </section>
 
-<!--
-  <<< Author notes: Step 1 >>>
-  Choose 3-5 steps for your course.
-  The first step is always the hardest, so pick something easy!
-  Link to docs.github.com for further explanations.
-  Encourage users to open new tabs for steps!
--->
+    <!-- Les Paragraphes et Texte -->
+    <section id="texte">
+      <h2>Les Paragraphes et le Texte</h2>
+      <p>Utilisez la balise <code>&lt;p&gt;</code> pour définir un paragraphe :</p>
+      <p>Ceci est un exemple de paragraphe.</p>
+      <p>Vous pouvez également styliser le texte :</p>
+      <ul>
+        <li><strong>Gras</strong> avec <code>&lt;strong&gt;</code> ou <code>&lt;b&gt;</code>.</li>
+        <li><em>Italique</em> avec <code>&lt;em&gt;</code> ou <code>&lt;i&gt;</code>.</li>
+        <li><u>Souligné</u> avec <code>&lt;u&gt;</code>.</li>
+      </ul>
+    </section>
 
-## Step 1: Enable GitHub Pages
+    <!-- Les Images -->
+    <section id="images">
+      <h2>Les Images</h2>
+      <p>Ajoutez une image avec la balise <code>&lt;img&gt;</code> :</p><!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Apprendre HTML</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Apprendre HTML</h1>
+    <p>Un guide interactif pour comprendre les bases du HTML étape par étape.</p>
+  </header>
 
-_Welcome to GitHub Pages and Jekyll :tada:!_
+  <main>
+    <!-- Introduction : C'est quoi HTML -->
+    <section id="introduction">
+      <h2>C'est quoi HTML ?</h2>
+      <img src="./Assets/images/jpg/ju.jpg" alt="">
+      <strong>
+        HTML (HyperText Markup Language) est le langage utilisé pour structurer le contenu des pages web. Il sert à définir la structure des éléments tels que les titres, paragraphes, images, vidéos, liens, et bien plus.
+      </strong>
+      <p>
+        Chaque page web que vous voyez sur Internet utilise HTML pour organiser son contenu.
+      </p>
+    </section>
 
-The first step is to enable GitHub Pages on this [repository](https://docs.github.com/en/get-started/quickstart/github-glossary#repository). When you enable GitHub Pages on a repository, GitHub takes the content that's on the main branch and publishes a website based on its contents.
+    <!-- Structure de base -->
+    <section id="structure-base">
+        <img src="./Assets/images/jpg/gt jpg" alt="">
+      <h2>La Structure de Base d'une Page HTML</h2>
+      <p>Voici à quoi ressemble la structure minimale d'une page HTML :</p>
+      <pre>
+<code>
+&lt;!DOCTYPE html&gt;
+&lt;html lang="fr"&gt;
+&lt;head&gt;
+  &lt;meta charset="UTF-8"&gt;
+  &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+  &lt;title&gt;Ajouter un titre&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+ 
+&lt;/body&gt;
+&lt;/html&gt;
+</code>
+      </pre>
+      <p>Chaque page HTML commence par <code>&lt;!DOCTYPE html&gt;</code>, qui indique au navigateur que nous utilisons HTML5.</p>
+    </section>
 
-### :keyboard: Activity: Enable GitHub Pages
+    <!-- Les balises HTML -->
+    <section id="balises-html">
+      <h2>Qu'est-ce qu'une Balise HTML ?</h2>
+      <p>
+        Les balises sont les éléments fondamentaux d'une page HTML. Elles sont toujours entourées de chevrons : <code>&lt;&gt;</code>.
+      </p>
+      <ul>
+        <li><code>&lt;h1&gt;</code> : Titre principal.</li>
+        <li><code>&lt;p&gt;</code> : Paragraphe.</li>
+        <li><code>&lt;img&gt;</code> : Image.</li>
+        <li><code>&lt;a&gt;</code> : Lien.</li>
+      </ul>
+      <p>Les balises fonctionnent souvent par paires : une balise d'ouverture (<code>&lt;h1&gt;</code>) et une balise de fermeture (<code>&lt;/h1&gt;</code>).</p>
+    </section>
 
-1. Open a new browser tab, and work on the steps in your second tab while you read the instructions in this tab.
-1. Under your repository name, click **Settings**.
-1. Click **Pages** in the **Code and automation** section.
-1. Ensure "Deploy from a branch" is selected from the **Source** drop-down menu, and then select `main` from the **Branch** drop-down menu.
-1. Click the **Save** button.
-1. Wait about _one minute_ then refresh this page (the one you're following instructions from). [GitHub Actions](https://docs.github.com/en/actions) will automatically update to the next step.
-   > Turning on GitHub Pages creates a deployment of your repository. GitHub Actions may take up to a minute to respond while waiting for the deployment. Future steps will be about 20 seconds; this step is slower.
-   > **Note**: In the **Pages** of **Settings**, the **Visit site** button will appear at the top. Click the button to see your GitHub Pages site.
+    <!-- Les Titres -->
+    <section id="titres">
+      <h2>Les Titres</h2>
+      <p>HTML propose 6 niveaux de titres, du plus important (<code>&lt;h1&gt;</code>) au moins important (<code>&lt;h6&gt;</code>) :</p>
+      <h1>Titre H1 (le plus grand)</h1>
+      <h2>Titre H2</h2>
+      <h3>Titre H3</h3>
+      <h4>Titre H4</h4>
+      <h5>Titre H5</h5>
+      <h6>Titre H6 (le plus petit)</h6>
+    </section>
 
-<footer>
+    <!-- Les Paragraphes et Texte -->
+    <section id="texte">
+      <h2>Les Paragraphes et le Texte</h2>
+      <p>Utilisez la balise <code>&lt;p&gt;</code> pour définir un paragraphe :</p>
+      <p>Ceci est un exemple de paragraphe.</p>
+      <p>Vous pouvez également styliser le texte :</p>
+      <ul>
+        <li><strong>Gras</strong> avec <code>&lt;strong&gt;</code> ou <code>&lt;b&gt;</code>.</li>
+        <li><em>Italique</em> avec <code>&lt;em&gt;</code> ou <code>&lt;i&gt;</code>.</li>
+        <li><u>Souligné</u> avec <code>&lt;u&gt;</code>.</li>
+      </ul>
+    </section>
 
-<!--
-  <<< Author notes: Footer >>>
-  Add a link to get support, GitHub status page, code of conduct, license link.
--->
+    <!-- Les Images -->
+    <section id="images">
+      <h2>Les Images</h2>
+      <p>Ajoutez une image avec la balise <code>&lt;img&gt;</code> :</p>
+      <img src="./Assets/images/jpg/chrome.jpg" alt="Exemple d'image" />
+      <p>Syntaxe : <code>&lt;img src="URL" alt="Description"&gt;</code></p>
+    </section>
 
----
+    <!-- Les Liens -->
+    <section id="liens">
+      <h2>Les Liens</h2>
+      <p>Ajoutez un lien hypertexte avec la balise <code>&lt;a&gt;</code> :</p>
+      <a href="https://www.w3schools.com/html/" target="_blank">En savoir plus sur HTML</a>
+      <p>Syntaxe : <code>&lt;a href="URL"&gt;Texte du lien&lt;/a&gt;</code></p>
+    </section>
+  </main>
 
-Get help: [Post in our discussion board](https://github.com/orgs/skills/discussions/categories/github-pages) &bull; [Review the GitHub status page](https://www.githubstatus.com/)
+  <footer>
+    <p>&copy; 2025 Apprendre HTML - Tous droits réservés</p>
+  </footer>
 
-&copy; 2023 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
-
-</footer>
+  <script src="script.js"></script>
+</body>
+</html>￼Enter
